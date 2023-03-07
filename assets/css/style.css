@@ -151,13 +151,8 @@ body {
     margin: 20px;
 }
 
-#details-container #humidity {
-    padding-right: 121px;
-}
-
 #details-container #wind {
-    border-left: 2px solid #fff;
-    padding-left: 60px;
+    padding: 20px;
 }
 
 /* ------------------------------- */
