@@ -29,15 +29,15 @@ const getWeatherData = async (city) => {
         if (data?.cod && data.cod === "404") {
             error404.innerHTML = "";
             const paragraph = document.createElement("p");
-            paragraph.innerHTML = "Oops! Localização inválida. <br /> Insira o nome de uma cidade!";
+            paragraph.innerHTML = "Oops... <br /> Não foi possível encontrar essa localidade";
             error404.appendChild(paragraph);
             error404.classList.remove("hide");
             weatherContainer.classList.add("hide");
         };
         return data;
 
-    } catch (error) {
-        alert(error)
+    } catch {
+        alert("Erro! Atualize a Página.")
     };
 };
 
