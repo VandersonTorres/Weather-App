@@ -142,11 +142,11 @@ body {
 }
 
 #details-container #humidity {
-    border-right: 2px solid #fff;
     padding-right: 121px;
 }
 
 #details-container #wind {
+    border-left: 2px solid #fff;
     padding-left: 60px;
 }
 
@@ -157,4 +157,3 @@ body {
     text-align: center;
     margin-top: 30px;
 }
-
