@@ -59,12 +59,12 @@ body {
     border: none;
     flex: 1;
     border-radius: 7px;
-    transition: 1s;
+    transition: 0.2s;
     background-color: #ffffffbb;
 }
 
 .form input:hover {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 .form input:focus {
     outline: 0;
