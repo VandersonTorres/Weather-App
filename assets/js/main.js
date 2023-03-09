@@ -63,13 +63,13 @@ const showWeatherData = async (city) => {
 searchBtn.addEventListener("click", (e) => {
     e.preventDefault();
 
-    const city = cityInput.value;
+    const city = cityInput.value.trim();
     showWeatherData(city);
 });
 
 cityInput.addEventListener("keyup", (e) => {
     if (e.code === "Enter") {
-        const city = e.target.value;
+        const city = e.target.value.trim();
         showWeatherData(city);
     }
 });
