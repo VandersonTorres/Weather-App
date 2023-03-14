@@ -17,10 +17,9 @@
 
 body {
     background-image: url("https://a-static.besthdwallpaper.com/blue-heaven-wallpaper-2560x1440-32213_51.jpg");
-    background-size: auto;
-    background-position: center;
     background-repeat: no-repeat;
     background-color: #8dd0f5;
+    background-clip: content-box;
     padding: 10px;
     margin: 16px;
     display: flex;
